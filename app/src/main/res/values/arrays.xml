@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="book_group_array">
+        <item>@string/all_book</item>
+        <item>@string/pursue_more_book</item>
+        <item>@string/fattening_book</item>
+        <item>@string/finish_book</item>
+        <item>@string/local_book</item>
+    </string-array>
+
+    <string-array name="text_suffix">
+        <item>.txt</item>
+        <item>.json</item>
+        <item>.xml</item>
+    </string-array>
+
+    <string-array name="convert_s">
+        <item>@string/jf_convert_o</item>
+        <item>@string/jf_convert_j</item>
+        <item>@string/jf_convert_f</item>
+    </string-array>
+
+    <string-array name="NavbarColors">
+        <item>自动</item>
+        <item>黑色</item>
+        <item>白色</item>
+        <item>跟随背景</item>
+    </string-array>
 
     <string-array name="screen_time_out">
         <item>默认</item>
@@ -20,13 +46,8 @@
     <string-array name="screen_direction_list_title">
         <item>@string/screen_unspecified</item>
         <item>@string/screen_portrait</item>
+        <item>@string/screen_landscape</item>
         <item>@string/screen_sensor</item>
-    </string-array>
-
-    <string-array name="screen_direction_list_value">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 
     <string-array name="bookshelf_px_title">
@@ -41,17 +62,6 @@
         <item>2</item>
     </string-array>
 
-    <string-array name="read_type_title">
-        <item>@string/horizontal_page_turning</item>
-        <item>@string/vertical_scroll</item>
-    </string-array>
-
-    <string-array name="read_type_value">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-
-
     <declare-styleable name="Battery">
         <attr name="batteryOrientation">
             <enum name="horizontal" value="0"/>
@@ -60,4 +70,5 @@
         <attr name="batteryColor" format="color"/>
         <attr name="batteryPower" format="integer"/>
     </declare-styleable>
+    
 </resources>
